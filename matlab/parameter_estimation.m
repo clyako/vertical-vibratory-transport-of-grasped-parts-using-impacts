@@ -47,6 +47,7 @@ max_positions = zeros(1, 10);
 estimated_normal_forces = zeros(1, 10);
 trial_to_run = 5;
 
+% params_from_paper = [mu_k, Fn_1, Fn_2, ..., Fn_10]
 params_from_paper = [0.6234, 10.6500, 13.0009, 9.9833, 6.7872, 6.0413, 7.0798, 6.2765, 6.6180, 7.1825, 8.2225];
 
 disp('Parameters set');
